@@ -1,7 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Growth Marketing Stack - How It Works"
-description = "How to implement growth marketing stack"
+
+[params]
+  description = "How to implement growth marketing stack"
 
 enableEmoji = true
 enableGitInfo = true
