@@ -1,0 +1,25 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Growth Marketing Stack - How It Works"
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    languageLang = "en"
+    weight = 1
+  [languages.ru]
+    languageName = "Russian"
+    languageCode = "ru-ru"
+    languageLang = "ru"
+    weight = 2
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
