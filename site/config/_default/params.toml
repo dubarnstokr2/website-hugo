@@ -1,2 +1,10 @@
+titleEmoji = ":tada:"
+twitter = "mksimiliano"
+description = "How to implement growth marketing stack"
+
 [SEO]
     description = "How to implement growth marketing stack"
+
+[[menu]]
+    name = "tracking"
+    url = "tracking/"
