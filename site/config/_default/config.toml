@@ -2,6 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Growth Marketing Stack - How It Works"
 theme = "hugo-theme-basic"
+copyright = "(c) 2022 dubarnstokr"
+description = "How to implement growth marketing stack"
 
 enableEmoji = true
 enableGitInfo = true
@@ -23,7 +25,40 @@ canonifyURLs = true
     languageLang = "ru"
     weight = 2
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+googleAnalytics = "G-Z1VF7Q4YJT"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  titleEmoji = ":tada:"
+  twitter = "mksimiliano"
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "post/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
+  
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+  
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
