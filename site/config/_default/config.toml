@@ -1,7 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Growth Marketing Stack - How It Works"
-theme = "hugo-theme-basic"
 copyright = "(c) 2022 dubarnstokr"
 description = "How to implement growth marketing stack"
 
@@ -16,11 +15,7 @@ canonifyURLs = true
     languageCode = "en-us"
     languageLang = "en"
     weight = 1
-  [languages.ru]
-    languageName = "Russian"
-    languageCode = "ru-ru"
-    languageLang = "ru"
-    weight = 2
+    contentDir = "content"
 
 googleAnalytics = "G-Z1VF7Q4YJT"
 
@@ -41,3 +36,25 @@ googleAnalytics = "G-Z1VF7Q4YJT"
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
+
+
+# hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
+
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/dubarnstokr2/website-hugo"
+  weight = 10

@@ -1,0 +1,94 @@
+User tracking
+    Consent management
+        Consent management with Piwik
+    Tag management
+        Tag management with Google Tag Manager
+        Tag management with Segment
+        Tag management with Piwik
+        Implement your own tag management
+    Performance optimisation
+        Blocking
+        Async
+        Deferred
+        Delayed
+        Page Views
+    Events / Conversions
+        Event tracking with website pixels
+        Event tracking with servers-side integration
+        Event tracking with Segment
+    Google Analytics (https://developers.google.com/analytics/devguides/collection/ga4/reference/config)
+        Client ID
+        Signals
+        Measurement protocol
+    Amplitude
+    Clearbit
+    Facebook pixel / Meta pixel
+        Advanced matching
+        Events API
+    Twitter pixel
+    Linked Insights tag
+Lead scoring
+    Segment
+    Madkudu
+    Pardot
+    Your own
+Video players
+    Wistia
+    Youtube
+    Vimeo
+Marketing attribution
+    Webiste only
+    Web + App
+    Branch
+Referral programs
+    Your own
+SEO
+    Ahrefs
+    GoogleSearch
+    SEMRush
+Payments
+    GoCardless
+    Stripe
+Emails (customer.io, hubspot, own)
+Segmentation
+Chat widget (https://www.tidio.com/blog/chat-widgets/ + Drift/Intercom/Manychat)
+Sharing widget
+Product tours (AppCues/Intercom)
+A/B testing
+    Frontend driven experiments
+    Backend driven experiments
+    Optimizely
+    VWO
+    Google Optimize
+    Your own
+Deep linking
+    Branch
+    Your own
+User interactions
+    Hotjar
+    FullStory
+    CrazyEgg
+    Your own
+Customer feedback
+    Exit intent
+    Qualaroo
+    Qualtrics
+    User testing
+    Exit intent
+Observability (https://www.honeycomb.io/comparisons/)
+    Exception tracking
+        Exception tracking with Sentry
+        Exception tracking with Honeycomb
+    Performance monitoring
+        Performance monitoring with NewRelic
+        Performance monitoring with Honeycomb
+        Performance monitoring with Pingdom
+    Logging
+        Pino
+    Monitoring
+        Datadog
+        Kibana
+        Honeycomb
+_References
+    https://blog.useproof.com/growth-hacking-tools
+    https://neilpatel.com/blog/35-growth-hacking-tools/

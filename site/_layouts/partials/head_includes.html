@@ -1,0 +1,73 @@
+<link rel="preload" href="https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css"></noscript>
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
+
+<script async src="{{ .Site.BaseURL }}js/tracker.js"></script>
+
+<!-- Piwik Pro - Cookie consent management -->
+<script type="text/javascript">
+  (function(window, document, dataLayerName, id) {
+  window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+  function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+  var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+  var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+  tags.async=!0,tags.src="https://growthmarketingstack.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+  !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+  })(window, document, 'dataLayer', '27247a21-ce72-4cfd-92c1-096caaaa4a03');
+</script><noscript><iframe src="https://growthmarketingstack.containers.piwik.pro/27247a21-ce72-4cfd-92c1-096caaaa4a03/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1VF7Q4YJT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Z1VF7Q4YJT', {'anonymize_ip': true, 'send_page_view': false});
+</script>
+<!-- End GA -->
+
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '279831707397899');
+</script>
+<!-- <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=279831707397899&ev=PageView&noscript=1"
+/></noscript> -->
+<meta name="facebook-domain-verification" content="0xwqsqtuanbbv3vvggtkefeq5hjb5s" />
+<!-- End Meta Pixel Code -->
+
+<!-- Twitter universal website tag code -->
+<script>
+  !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+  },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+  // Insert Twitter Pixel ID and Standard Event data below
+  twq('init','o7gy9');
+</script>
+<!-- End Twitter universal website tag code -->
+
+<!-- LinkedIn -->
+<script type="text/javascript">
+  _linkedin_partner_id = "4157041";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=4157041&fmt=gif" />
+</noscript>
+<!-- End LinkedIn -->
+
+<script type="text/javascript">
+  window.setTimeout(function() {
+    Tracker.page();
+  }, 2000);
+</script>
